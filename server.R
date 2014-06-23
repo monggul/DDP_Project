@@ -1,3 +1,6 @@
+library(UsingR)
+data(galton)
+
 shinyServer(
   function(input, output) {
     output$myHist <- renderPlot({
